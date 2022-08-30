@@ -1,0 +1,26 @@
+{
+  "name": "library-api",
+  "version": "1.0.0",
+  "description": "This is a book managment system for library",
+  "main": "index.js",
+  "scripts": {
+"start": "node index.js",
+"dev":"nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RDBarman2001/LIBRARY-API.git"
+  },
+  "author": "Rupak Deb Barman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RDBarman2001/LIBRARY-API/issues"
+  },
+  "homepage": "https://github.com/RDBarman2001/LIBRARY-API#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
