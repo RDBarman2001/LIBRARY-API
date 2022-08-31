@@ -1,4 +1,5 @@
-This is a book record management API Backend for the management of records and books
+This is a Library Book record Management Server:
+Documentation Link: https://documenter.getpostman.com/view/23094344/VUxNSoBX
 
 Routes and Endpoints
 
@@ -15,7 +16,7 @@ DELETE: Delete a user by id (check if he/she still has an issued book) (is there
 
 ## /users/subscription-details/{id}
 
-GET: Get user subscription details
+GET: Get user subscription details✔
 
 Date of subscription
 Valid till
@@ -33,16 +34,19 @@ PUT: Update a book by id✔
 
 ## /books/issued/by-user
 
-GET: Get all issued books
+GET: Get all issued books✔
 
 ## /books/issued/withFine
 
-GET: Get all issued books with fine
+GET: Get all issued books with fine✔
 
 Subscription Types
-Basic (3 months) Standard (6 months) Premium (12 months)
+Basic (3 months)
+Standard (6 months)
+Premium (12 months)
 
-If the subscription date is 01/08/22 and Subscription type is Standard the valid till date will be 01/02/23
+> > Dates will be in MM/DD/YYYY format
+> > If the subscription date is 01/08/22 and Subscription type is Standard the valid till date will be 01/02/23
 
 If he has an issued book and the issued book is to be returned at 01/01/23 If he missed the date of return, then he gts a fine of Rs. 100./
 
