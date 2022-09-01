@@ -10,6 +10,7 @@ function Db(){
     db.once("open",function(){
         console.log('Database connected...')
     })
+    
 
 }
 

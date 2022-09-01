@@ -138,7 +138,7 @@ Parameters:id;
             success:false,
             message:"User Not Found" }) }
        const getDateIndays =(data="")=>{
-        let date;
+        
         if(data===""){
             date=new Date();
         }
@@ -148,7 +148,7 @@ Parameters:id;
         let days=Math.floor(date/(1000*60*60*24));
         return days;
        };
-       const subscriptionType=(date)=>{
+       const subscriptionType=(data)=>{
              
         if(user.subscriptionType=="Basic"){
             date=date+90;
