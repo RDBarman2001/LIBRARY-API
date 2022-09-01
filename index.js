@@ -1,8 +1,11 @@
 const express=require("express");
+const dotenv=require("dotenv");
+const Db=require('./databaseConnection')
 const usersRouter=require('./routes/users')
 const booksRouter=require('./routes/books')
-const { json } = require("express");
+dotenv.config();
 const app =express();
+Db();
 const PORT=8081;
 
 app.use(express.json());
