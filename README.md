@@ -1,5 +1,9 @@
-This is a Library Book record Management Server:
+## This is a Library Book record Management Server:
+## For Examples Please go through the documentation-
 Documentation Link: https://documenter.getpostman.com/view/23094344/VUxNSoBX
+## Technologies used
+- Node js
+- Mongo DB
 
 Routes and Endpoints
 
